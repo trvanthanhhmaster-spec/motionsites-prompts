@@ -1,0 +1,13 @@
+# Credentials
+.session.json
+
+# Generated data (keep prompts-full.json in repo)
+all-prompts.json
+prompts-*.json
+prompts-*.csv
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
