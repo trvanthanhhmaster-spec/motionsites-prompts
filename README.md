@@ -93,10 +93,6 @@ jq 'map(select(.is_free == true))' prompts-full.json
 jq -r '.[] | select(.id == "layered-depth") | .prompt_text' prompts-full.json
 ```
 
-## Tools
-
-The companion repo [motionsites-tools](https://github.com/trvanthanhhmaster-spec/motionsites-tools) contains scripts to fetch and sync this data directly from the motionsites.ai API.
-
 ## Disclaimer
 
 This dataset is extracted from motionsites.ai for archival/research purposes. All prompt content belongs to their respective creators. If you own any of this content and want it removed, open an issue.
@@ -193,10 +189,6 @@ jq 'map(select(.is_free == true))' prompts-full.json
 # Trích xuất nội dung một prompt cụ thể
 jq -r '.[] | select(.id == "layered-depth") | .prompt_text' prompts-full.json
 ```
-
-## Công Cụ
-
-Repo [motionsites-tools](https://github.com/trvanthanhhmaster-spec/motionsites-tools) chứa script để fetch và đồng bộ dữ liệu trực tiếp từ API của motionsites.ai.
 
 ## Tuyên Bố
 
